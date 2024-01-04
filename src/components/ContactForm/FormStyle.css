@@ -1,0 +1,39 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 20px auto;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 30px 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+h1 {
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+}
